@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Mes chansans"
+            android:id="@+id/itemChansons"
+            android:icon="@drawable/ic_music"/>
+        <item android:title="Mes playlists"
+            android:id="@+id/itemPlayList"
+            android:icon="@drawable/ic_playlist"/>
+        <item android:title="Chercher"
+            android:id="@+id/itemChercher"
+            android:icon="@drawable/ic_search"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communication">
+            <menu>
+                <group>
+                    <item android:title= "Partager"
+                        android:id="@+id/itemPartager"
+                        android:icon="@drawable/ic_share"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
